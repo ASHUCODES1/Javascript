@@ -175,8 +175,293 @@
          	
          	document.write("  6.  <= (Less than or Equal to) Operator");
          	document.write(linebreak);
-           document.write( a," <=",b,"=> ");
+           	document.write( a," <=",b,"=> ");
             result = (a <= b);
             document.write(result);
             document.write(linebreak);
             document.write(linebreak);
+
+           // Logical Operators
+
+           	document.write("Logical Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+			var a = true;
+            var b = false;
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+            
+      		document.write(" && (Logical AND) Operator");
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(linebreak);
+
+
+            document.write(a," &&", b," => ");
+            result = (a && b);
+            document.write(result);
+            document.write(linebreak);
+             document.write(linebreak);
+            document.write(linebreak);
+
+            document.write(" || (Logical OR) Operator");
+            document.write(linebreak);
+             document.write(linebreak);
+            document.write(linebreak);
+         
+            document.write(a," ||", b," => ");
+            result = (a || b);
+            document.write(result);
+            document.write(linebreak);
+             document.write(linebreak);
+            document.write(linebreak);
+
+            document.write(" ! (Logical NOT) Operator");
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(linebreak);
+         
+            document.write("!",a," => ");
+            result = (!a);
+            document.write(result);
+            document.write(linebreak);
+
+          // Bitwise Operators
+
+          	document.write("Bitwise Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+			var a = 4; // Bit representation 100
+            var b = 5; // Bit representation 101
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+            
+         	
+            document.write("Bitwise  AND (&) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            document.write("(a & b) => ");
+            result = (a & b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+         
+
+            document.write("Bitwise  OR (|) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            document.write("(a | b) => ");
+            result = (a | b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("Bitwise  XOR (^) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+         
+            document.write("(a ^ b) => ");
+            result = (a ^ b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("Bitwise  NOT (~) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+         
+            document.write("(~b) => ");
+            result = (~b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("Bitwise  Left Shift (<<) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+         
+            document.write("(a << b) => ");
+            result = (a << b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+         
+            document.write("Bitwise Right Shift (>>) Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+         
+
+            document.write("(a >> b) => ");
+            result = (a >> b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+
+            //Assignment Operators
+
+            document.write("Assignment Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            var a = 33;
+            var b = 10;
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+           
+         	
+            document.write("= (Simple Assignment )");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            document.write("Value of a => (a = b) => ");
+            result = (a = b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+         
+            document.write("+= (Add and Assignment)");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+            document.write("Value of a => (a += b) => ");
+            result = (a += b);
+            document.write(result);
+            document.write(linebreak);
+         	document.write(linebreak);
+
+
+         	document.write("−= (Subtract and Assignment))");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            document.write("Value of a => (a -= b) => ");
+            result = (a -= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("*= (Multiply and Assignment))");
+			document.write(linebreak);
+			document.write(linebreak);
+
+         
+            document.write("Value of a => (a *= b) => ");
+            result = (a *= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("/= (Divide and Assignment))");
+			document.write(linebreak);
+			document.write(linebreak);
+
+         
+            document.write("Value of a => (a /= b) => ");
+            result = (a /= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+
+            document.write("%= (Modules and Assignment))");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+         
+            document.write("Value of a => (a %= b) => ");
+            result = (a %= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+            // Miscellaneous Operator
+            document.write("Miscellaneous Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            // Conditional Operator (? :)
+			
+			document.write("? : (Conditional )");
+			document.write(linebreak);
+			document.write(linebreak);
+			document.write("If Condition is true? Then value X : Otherwise value Y");
+			document.write(linebreak);
+			document.write(linebreak);
+			var a = 10;
+            var b = 20;
+            
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+           
+         
+            document.write ("((a > b) ? 100 : 200) => ");
+            result = (a > b) ? 100 : 200;
+            document.write(result);
+            document.write(linebreak);
+         	document.write(linebreak);
+         	document.write(linebreak);
+
+            document.write ("((a < b) ? 100 : 200) => ");
+            result = (a < b) ? 100 : 200;
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(linebreak);
+
+
+            //  typeof operator
+
+            document.write("Typeof Operator in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+			var a = 10;
+            var b = "String";
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+           
+         
+            result = (typeof b == "string" ? "B is String" : "B is Numeric");
+            document.write("Result => ");
+            document.write(result);
+            document.write(linebreak);
+         
+            result = (typeof a == "string" ? "A is String" : "A is Numeric");
+            document.write("Result => ");
+            document.write(result);
+            document.write(linebreak);
+
