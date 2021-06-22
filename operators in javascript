@@ -1,0 +1,182 @@
+/* This code gives the concept of opetators in Javascript*/
+
+			var linebreak = "<br />"; // making a variable for line break as <br/> is used to break the line in HTML. 
+
+			// Arithmetic Operators
+
+			document.write("Arithmetic Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+
+
+            var a = 20;// number 
+            var b = 15;
+            
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+            
+           	document.write("Addition Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+            document.write("a + b = ");
+            result = a + b;
+            document.write(result); // printing addition  
+            document.write(linebreak); // using the linebreak variable for breaking the line.
+            document.write(linebreak);
+         
+         	document.write("Subtration Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+            document.write("a - b = ");
+            result = a - b; 
+            document.write(result);  // printing result of subtraction.
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("Multiplication Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+            document.write("a * b = ");
+            result = a *b;
+            document.write(result);     // printing result of multiplication.
+            document.write(linebreak);
+         	document.write(linebreak);
+            document.write("Division Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+            document.write("a / b = ");
+            result = a / b;
+            document.write(result);    // printing result of division. 
+            document.write(linebreak);
+            document.write(linebreak);
+         
+            document.write("Modulous Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+            document.write("a % b = ");
+            result = a % b;
+            document.write(result);     // printing result after applying Modulus operator on a and b
+            document.write(linebreak);
+            document.write(linebreak);
+         
+            document.write("Increment Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+
+           
+           
+            document.write("++a = ");
+            result = ++a;  // applying  increment operator.
+            document.write(result);   // printing the result of increment operator.
+            document.write(linebreak);
+            document.write(linebreak);
+
+            document.write("Decrement Operator");
+		   	document.write(linebreak);
+		   	document.write(linebreak);
+         
+            
+            document.write("--b = ");
+            result = --b; // applying decrement operator. 
+            document.write(result); // printing the result of decrement operator.
+            document.write(linebreak);
+            document.write(linebreak);
+
+
+  //Comparison Operators
+
+     		document.write("Comparison Operators in Javascript");
+			document.write(linebreak);
+			document.write(linebreak);
+
+
+
+			var a = 50;
+            var b = 55;
+            
+
+            document.write(" variable a is ",a);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(" variable b is ",b);
+            document.write(linebreak);
+            document.write(linebreak);
+            
+      		document.write(linebreak);
+      		document.write(linebreak);
+			
+			document.write("1. = = (Equal) Operator");
+			document.write(linebreak);
+			document.write(linebreak);
+
+            document.write( a,"= =",b,"=> ");
+            result = (a == b);
+            document.write(result);
+           
+           
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write(linebreak);
+            document.write("2. != (Not Equal) Operator");
+        	document.write(linebreak);
+      
+
+            document.write( a," !=",b,"=> ");
+            result = (a != b);
+            document.write(result);
+            document.write(linebreak);
+      		document.write(linebreak);
+        	document.write("  3. < (Less than) Operator");
+        	document.write(linebreak);
+
+      		document.write( a," <",b,"=> ");
+         	
+            
+            result = (a < b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+
+         	document.write("  4. > (Greater than) Operator");
+         	document.write(linebreak);
+
+           document.write( a," >",b,"=> ");
+            result = (a > b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+         
+
+         	
+
+         	
+            document.write(linebreak);
+         
+         	document.write("  5. >= (Greater than or Equal to) Operator");
+         	document.write(linebreak);
+
+           document.write( a," >=",b,"=> ");
+            result = (a >= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
+         	
+         	document.write("  6.  <= (Less than or Equal to) Operator");
+         	document.write(linebreak);
+           document.write( a," <=",b,"=> ");
+            result = (a <= b);
+            document.write(result);
+            document.write(linebreak);
+            document.write(linebreak);
